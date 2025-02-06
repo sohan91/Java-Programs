@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.collections.*?>
+<?import java.lang.String?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.ColorPicker?>
+<?import com.sun.javafx.scene.control.WebColorField?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.control.Accordion?>
+<GridPane alignment="CENTER" xmlns:fx="http://javafx.com/fxml"
+          fx:controller="com.example.radiobutton.HelloController" style="-fx-background-color: lightblue" >
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+    <fx:define>
+        <ToggleGroup fx:id = "colorToggleGroup"/>
+    </fx:define>
+    <Label text="Slelct The Gender" alignment="TOP_CENTER" />
+<VBox GridPane.columnIndex="2" GridPane.rowIndex="0">
+    <RadioButton text="Male" GridPane.rowIndex="0" GridPane.columnIndex="2"  toggleGroup="$colorToggleGroup"/>
+    <RadioButton text="Female" GridPane.rowIndex="0" GridPane.columnIndex="3" toggleGroup="$colorToggleGroup"/>
+    <RadioButton text="None" GridPane.rowIndex="0" GridPane.columnIndex="4" toggleGroup="$colorToggleGroup"/>
+</VBox>
+    <CheckBox text="Submit" GridPane.rowIndex="0" GridPane.columnIndex="3"/>
+    <VBox GridPane.rowIndex="0" GridPane.columnIndex="4">
+        <CheckBox text="Dog" />
+        <CheckBox text="Cat"/>
+        <CheckBox text="Goat"/>
+        <CheckBox text="Rat"/>
+    </VBox>
+    <ToggleButton text="many" GridPane.rowIndex="0" GridPane.columnIndex="5"/>
+<ToggleButton text= "SoMany" GridPane.rowIndex="0" GridPane.columnIndex="6"/>
+<Button text="Much" GridPane.rowIndex="0" GridPane.columnIndex="7"/>
+    <TextField GridPane.rowIndex="1" GridPane.columnIndex="0">
+    </TextField>
+    <ComboBox GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.columnSpan="2">
+        <items>
+            <FXCollections fx:factory="observableArrayList">
+            <String fx:value="Option One"/>
+                <String fx:value="Option Two"/>
+                <String fx:value="Option Three"/>
+                <String fx:value="Option Four"/>
+                <String fx:value="Option Five"/>
+            </FXCollections>
+        </items>
+    </ComboBox>
+<Slider GridPane.rowIndex="2" GridPane.columnIndex="0" GridPane.columnSpan="10" min="0" max="100" showTickLabels="true" showTickMarks="true" majorTickUnit="10"
+style="-fx-background-color: blue; -fx-slider-color: red; -fx-border-color: black; -fx-border-style: dashed; -fx-border-width: 4"/>
+
+    <Spinner GridPane.columnSpan="2" GridPane.columnIndex="0" GridPane.rowIndex="11" min="0" max="100" editable="true"/>
+    <DatePicker GridPane.rowIndex="3" GridPane.columnIndex="0" GridPane.columnSpan="6"/>
+    <Accordion GridPane.columnSpan="2" GridPane.columnIndex="0" GridPane.rowIndex="12">
+    <panes>
+    <TitledPane text="Pane 1" >
+       <Label text="Title Pane 1"/>
+    </TitledPane>
+    <TitledPane text="Pane 2" >
+        <Label text="Title Pane 2"/>
+    </TitledPane>
+    <TitledPane text="Pane 3" >
+        <Label text="Title Pane 3"/>
+    </TitledPane>
+    <TitledPane text="Pane 4" >
+        <Label text="Title Pane 4"/>
+    </TitledPane>
+    </panes>
+    </Accordion>
+    <ColorPicker GridPane.rowIndex="13" GridPane.columnIndex="0" GridPane.columnSpan="4"/>
+</GridPane>

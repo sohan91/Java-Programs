@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AllAboutString/AllAboutString.iml" filepath="$PROJECT_DIR$/AllAboutString/AllAboutString.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayList/ArrayList.iml" filepath="$PROJECT_DIR$/ArrayList/ArrayList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayListChallange/ArrayListChallange.iml" filepath="$PROJECT_DIR$/ArrayListChallange/ArrayListChallange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArrayMinChallange/ArrayMinChallange.iml" filepath="$PROJECT_DIR$/ArrayMinChallange/ArrayMinChallange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArraysChallange/ArraysChallange.iml" filepath="$PROJECT_DIR$/ArraysChallange/ArraysChallange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BankChanllanUsingSettersGetters/BankChanllanUsingSettersGetters.iml" filepath="$PROJECT_DIR$/BankChanllanUsingSettersGetters/BankChanllanUsingSettersGetters.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BurgerBillChallange/BurgerBillChallange.iml" filepath="$PROJECT_DIR$/BurgerBillChallange/BurgerBillChallange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Composition/Composition.iml" filepath="$PROJECT_DIR$/Composition/Composition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Encapsulation-1/Encapsulation-1.iml" filepath="$PROJECT_DIR$/Encapsulation-1/Encapsulation-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EncapsulationChallange/EncapsulationChallange.iml" filepath="$PROJECT_DIR$/EncapsulationChallange/EncapsulationChallange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileHandliPrograms/FileHandliPrograms.iml" filepath="$PROJECT_DIR$/FileHandliPrograms/FileHandliPrograms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstProject/FirstProject.iml" filepath="$PROJECT_DIR$/FirstProject/FirstProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FrEachLoop/FrEachLoop.iml" filepath="$PROJECT_DIR$/FrEachLoop/FrEachLoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FromFirstPractiseJava/FromFirstPractiseJava.iml" filepath="$PROJECT_DIR$/FromFirstPractiseJava/FromFirstPractiseJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/IdeaProjects.iml" filepath="$PROJECT_DIR$/.idea/IdeaProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inheritence/Inheritence.iml" filepath="$PROJECT_DIR$/Inheritence/Inheritence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InheritenceChallnage/InheritenceChallnage.iml" filepath="$PROJECT_DIR$/InheritenceChallnage/InheritenceChallnage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedListChallange/LinkedListChallange.iml" filepath="$PROJECT_DIR$/LinkedListChallange/LinkedListChallange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultiDimensionalArray/MultiDimensionalArray.iml" filepath="$PROJECT_DIR$/MultiDimensionalArray/MultiDimensionalArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultipleThreading/MultipleThreading.iml" filepath="$PROJECT_DIR$/MultipleThreading/MultipleThreading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POJO/POJO.iml" filepath="$PROJECT_DIR$/POJO/POJO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Polymorphism/Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Propertiesfiles/Propertiesfiles.iml" filepath="$PROJECT_DIR$/Propertiesfiles/Propertiesfiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RandomArrayElements/RandomArrayElements.iml" filepath="$PROJECT_DIR$/RandomArrayElements/RandomArrayElements.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RecordClass/RecordClass.iml" filepath="$PROJECT_DIR$/RecordClass/RecordClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringBuilder/StringBuilder.iml" filepath="$PROJECT_DIR$/StringBuilder/StringBuilder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StringFormatTextBox/StringFormatTextBox.iml" filepath="$PROJECT_DIR$/StringFormatTextBox/StringFormatTextBox.iml" />
+    </modules>
+  </component>
+</project>

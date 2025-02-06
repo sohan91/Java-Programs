@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.SwitchEventController">
+   <children>
+      <Button layoutX="206.0" layoutY="272.0" mnemonicParsing="false" onAction="#scene2" text="SWITCH TO SCENE 2">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="179.0" layoutY="61.0" text="THIS IS SCENE 1">
+         <font>
+            <Font name="Times New Roman" size="29.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="515.0" prefWidth="681.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.EventHandlerController">
+   <Button layoutX="313.0" layoutY="30.0" mnemonicParsing="false" onAction="#top" text="TOP" textFill="#ea1212" />
+   <Button layoutX="30.0" layoutY="237.0" mnemonicParsing="false" onAction="#left" text="LEFT" textFill="#e70606" />
+   <Button layoutX="304.0" layoutY="455.0" mnemonicParsing="false" onAction="#down" text="DOWN" textFill="#ea0c0c" />
+   <Button layoutX="596.0" layoutY="244.0" mnemonicParsing="false" onAction="#right" text="RIGHT" textFill="#df0808" />
+   <Circle fx:id="circle" fill="#ff1f30" layoutX="341.0" layoutY="237.0" radius="100.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="3.0" />
+</AnchorPane>
