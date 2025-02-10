@@ -1,2 +1,2 @@
-## All Aout Java
-# Mostly #, Covered all the core java concept
+# All Aout Java
+Mostly #, Covered all the **core java** concept
