@@ -13,7 +13,7 @@ public class BankAccount {
     {
         try
         {
-            System.err.println("The Banke Manager Taking SomeWhere else please Wait......");
+            System.err.println("The Bank Manager Taking SomeWhere else please Wait......");
             Thread.sleep(5000);
         }catch (InterruptedException e)
         {
