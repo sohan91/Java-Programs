@@ -1,11 +1,9 @@
 
-import javax.swing.*;
 import java.sql.*;
-import java.util.Arrays;
 
-public class Conncection {
+public class Conncections {
     private final static String con = "jdbc:mysql://localhost:3306/music";
-    private final static String userName ="Developer";
+    private final static String userName ="root";
     private final static String password ="sohan@2003";
 
     public static void main(String[] args) {
