@@ -1,5 +1,5 @@
 
-//To,Support for the multiple client we use MutliThreading and give some feature
+//To,Support for the multiple client we use MultiThreading and give some feature
 package dev.lpa.server;
 
 import java.io.*;
@@ -12,6 +12,7 @@ public class SimpleClient {
         {
             BufferedReader input = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             PrintWriter output = new PrintWriter(socket.getOutputStream(),true);
+            System.out.println("Client post request to the server");
             Scanner sc = new Scanner(System.in);
             String requestString;
             String responseString;

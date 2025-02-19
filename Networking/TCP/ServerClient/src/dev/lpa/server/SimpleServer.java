@@ -13,7 +13,7 @@ public class SimpleServer {
                System.out.println("Server accepts client connection");
                BufferedReader input = new BufferedReader(new InputStreamReader(socket.getInputStream()));
                //Read the chunks of data
-               PrintWriter output = new PrintWriter(socket.getOutputStream(), true);//print thr chunks of data
+               PrintWriter output = new PrintWriter(socket.getOutputStream(), true);//print the chunks of data
                while (true)
                {
                    String echoString = input.readLine();
