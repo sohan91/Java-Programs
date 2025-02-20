@@ -6,7 +6,7 @@ public class FileHndlingInputOperation {
         File fl = new File("./test2.tex");
                         //        if(fl.exists())
                         //        {
-                        //            FileInputStream name = new FileInputStream(fl);
+//                                    FileInputStream name = new FileInputStream(fl);
                         //            String var = new String("");
                         //            int ascicode;
                         //            while((ascicode= name.read())!=-1)

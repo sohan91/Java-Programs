@@ -10,7 +10,7 @@ public class AboutHttpURLContent {
     public static void main(String[] args)  {
         URL url = null;
         try {
-            url = new URL("https://www.youtube.com/results?search_query=poolachokka");
+            url = new URL("https://www.youtube.com/watch?v=HNYA6bqL6bU");
 
             InputStream inputStream = url.openConnection().getInputStream();
             int i;
@@ -19,8 +19,6 @@ public class AboutHttpURLContent {
                 System.out.print((char)i);
             }
             
-        } catch (MalformedURLException e) {
-            throw new RuntimeException(e);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
